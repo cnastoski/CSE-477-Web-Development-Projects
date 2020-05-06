@@ -1,0 +1,116 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    font-family: "Times New Roman", serif;
+}
+
+body{
+    background-image: url("images/cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 650px;
+    background-color: #3f3622;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1{
+    padding: .5em;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.content{
+    position: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.main-pic img{
+    border: thin solid black;
+    max-width: 95%;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+}
+
+.topnav{
+    float: right;
+}
+
+.topnav a:visited{
+    color: gray;
+}
+
+.topnav a:link{
+    color: white;
+}
+
+a:link{
+    color: #3f3622;
+}
+
+a:visited{
+    color: #3f3622;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1.5em;
+}
+
+.botnav p{
+    text-align: center;
+    font-size: 1.75em;
+    padding-bottom: 0.75em;
+    padding-top: 0.25em;
+}
+
+div.room{
+    width: 200px;
+    display: inline-block;
+}
+
+div.rooms{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2em;
+
+}
+
+div.room p{
+    text-align: center;
+}
+
+div.immersion{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+div.caption{
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+div.instructions p{
+    padding: 1em;
+    text-align:left;
+}
